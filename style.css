@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+}
+
+
+/* dot and language */
+
+.wrapper .header .dotl{
+    display: flex;
+    max-width: 35opx;
+    
+}
+
+.wrapper .header .dotl h6{
+    font-size: 18px;
+    color: rgba(122, 122, 122, 0.863);
+    cursor:default;
+    opacity: 40px;
+}
+
+.wrapper .header .dotl .select{
+    color: rgb(78, 78, 78);
+    margin-left: 100px;
+    border: none;
+    box-shadow: none;
+    padding-left: 30px;
+    text-rendering: auto;
+    outline: none;
+    width: 100px;
+    cursor: pointer;
+    opacity: 40%;
+    background-color:white;
+    
+
+}
+
+
+/* main */
+
+.wrapper .header{
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+}
+
+
+.wrapper .header .top{
+    background: rgb(255, 255, 255);
+    padding: 40px 40px 20px;
+}
+
+/* instalogo */
+
+.wrapper .header .top .image{
+    display: block;
+    padding-left: 50px;
+    margin: 0 auto 35px;
+
+}
+
+/* input */
+.wrapper .header form .input {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    position: relative;
+    padding:4px;
+
+}
+
+.wrapper .header form .input input{
+    height: 38px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 3px;
+    padding-left: 8px;
+    padding-top: 10px;
+    background: rgba(241, 241, 241, 0.425);
+    font-size: 12px;
+  
+    
+}
+
+
+.wrapper .header form .input label{
+    font-size: 13px;
+    position: absolute;
+    font-family: sans-serif;
+    margin-left: 5px;
+    padding-left: 4px;
+    margin-top: 10px;   
+    color: rgba(94, 94, 94, 0.842); 
+    transition: 0.3s ease-in-out;
+}
+
+
+/* input focus */
+
+.wrapper .header form .input input:focus ~ label,
+.wrapper .header form .input input:valid ~ label{
+
+    font-size: 11px;
+    top: -5px;
+    
+}
+
+/* facbook login */
+
+.wrapper .header .top .facebook{
+    border: 1px solid rgba(1, 103, 255, 0.425);
+    border-radius: 4px;
+    background-color: rgba(1, 103, 255, 0.733);
+    padding: 2px;
+}
+
+.wrapper .header .top .facebook a{
+   
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 550;
+    margin-left: 5px;
+    
+
+}
+
+.wrapper .header .top .facebook img{
+    margin-left: 46px;
+    margin-top: 4px;
+
+}
+
+
+/* line */
+.wrapper .header .top .line1{
+    background: rgb(199, 199, 199);
+    width: 40%;
+    height: 0.7px;
+
+}
+
+.wrapper .header .top .line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.wrapper .header .top .line p{
+    color: rgb(124, 124, 124);
+    font-size: 12px;
+    font-weight: 800;
+}
+
+/* forgot */
+
+.forgot{
+    margin-left: 160px;
+    margin-top: 17px;
+}
+
+.forgot a{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: rgb(1, 102, 255);
+}
+
+/* login */
+
+.login button{
+    margin-top: 20px;
+    padding: 5px;
+    width: 100%;
+    border: rgba(1, 103, 255, 0) 1px solid;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 119, 255, 0.671);
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+
+
+.annother{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.annother p{
+    font-family: sans-serif;
+    color: rgb(122, 122, 122);
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.annother a{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(1, 102, 255);
+    margin-left: 4px;
+    margin-top: 3px;
+
+}
+
+
+/* footer */
+
+footer{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.842);
+    margin-top: 50px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    bottom: 0%;
+    
+}
+
+
+footer .from p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size:9px;
+    color: rgba(94, 94, 94, 0.842);
+   
+}
+
+
+footer .footline hr{
+    color: rgba(141, 141, 141, 0.842);
+
+    
+}
+
+footer  .meta img{
+
+    margin-bottom: 10px;
+}
+
+
+/* responsive */
+
+
+@media  screen and (max-width:400px) {
+
+    .forgot{
+        margin-left: 155px;
+        font-size: 12px;
+
+}
+
+}
